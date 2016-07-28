@@ -21,7 +21,7 @@ while(1) {
 		break;
 		echo "\n";
 	}
-	var_dump($msg);
+	//var_dump($msg);
 	usleep(150);
 }
 
