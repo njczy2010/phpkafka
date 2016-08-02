@@ -11,8 +11,7 @@ function create_message() {
 
 	$remote_user = $GLOBALS["G_CONFIG"]["remote_user"]["0"];
 
-	$datetime = new DateTime('17 Oct 2008');
-	$time_iso8601 = $datetime->format('c');
+	$time_iso8601 = $GLOBALS["G_CONFIG"]["time_iso8601"]["0"];
 
 	$num = mt_rand(0,10);
 	$http_host = $GLOBALS["G_CONFIG"]["http_host"]["$num"];

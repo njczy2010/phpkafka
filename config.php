@@ -7,9 +7,12 @@ $G_ROOT = dirname(__FILE__);
 
 # {"remote_addr":"$remote_addr","remote_user":"$remote_user","time_local":"$time_iso8601","http_host":"$http_host","api_id":"$api_id","api_path_id":"$api_path_id","caller_id":"$caller_id","method":"$request_method","request_uri":"$request_uri","uri":"$orignal_uri","request_time":"$request_time","status":"$status","upstream_addr":"$upstream_addr","upstream_status":"$upstream_status","upstream_response_time":"$upstream_response_time","request_length":"$request_length","body_bytes_sent":"$body_bytes_sent","http_referer":"$http_referer","http_user_agent":"$http_user_agent","http_x_forwarded_for":"$http_x_forwarded_for","upstream_cache_status":"$upstream_cache_status","hostname":"$hostname"}
 
-
 $G_CONFIG["remote_user"] = array (
 	"0" => "-",
+);
+
+$G_CONFIG["time_iso8601"] = array (
+	"0" => "2016-08-01T17:01:00+08:00",
 );
 
 $G_CONFIG["http_host"] = array (
