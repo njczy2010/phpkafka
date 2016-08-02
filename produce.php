@@ -33,11 +33,11 @@ function create_message() {
 
 	$request_time = (double)mt_rand(0,1000) / 1000;
 
-	$status = 100 * mt_rand(2,5) + 10 + mt_rand(0,5);
+	$status = 100 * mt_rand(2,5) + mt_rand(0,5);
 
 	$upstream_addr = "" . mt_rand(0,255) . "." . mt_rand(0,255) . "." . mt_rand(0,255) . "." . mt_rand(0,255) . ":8080";
 
-	$upstream_status = 100 * mt_rand(2,5) + 10 + mt_rand(0,5);
+	$upstream_status = 100 * mt_rand(2,5) + mt_rand(0,5);
 
 	$upstream_response_time = (double)mt_rand(0,1000) / 1000;
 
